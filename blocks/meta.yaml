@@ -1,0 +1,36 @@
+package:
+  name: blocks
+  version: 0.1.1
+
+source:
+  git_url: https://github.com/mila-udem/blocks.git 
+  git_tag: v0.1.1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - six
+    - pyyaml
+    - toolz
+    - theano
+    - picklable-itertools
+    - progressbar2
+    - fuel
+
+  run:
+    - python
+    - numpy
+    - six
+    - pyyaml
+    - toolz
+    - theano
+    - picklable-itertools
+    - progressbar2
+    - fuel
+
+about:
+  home: https://github.com/mila-udem/blocks
+  license: MIT
+
